@@ -1,0 +1,228 @@
+
+
+/* home page */
+.backcolorhol1{
+    background-color: rgba(15, 9, 9, 0.479) !important;
+    position: fixed !important;
+
+    z-index: 999;
+}   
+.mainssd{
+    height: 76vh;
+    background-color: rgb(250, 233, 203);
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+height: 300px;
+border-radius: 23px;
+    width: 500px;
+    
+}
+.para1{
+    color: #626669;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.caroimg{
+    height: 600px !important;
+}
+.kachibha{
+    width: 250px !important;
+border: none;
+padding: 5px px;
+background-color:transparent ;
+color: rgb(0, 0, 0);
+position: relative;
+border: 2px solid black;
+overflow: hidden;
+font-size: 20px;
+font-weight: 700;
+}
+.kachibha::before{
+    content: "";
+    height: 5px;
+    width: 250px;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 0px;
+    left: -250px;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.kachibha:hover::before {
+    left: 0px;
+}
+.kachibha:hover{
+    transition: all 0.5s ease-in-out;
+    color: #ff0000;
+
+}
+.noi{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.avatar{
+    margin-top: 20px;
+font-size: 20px;
+    color: white !important;
+    margin-right: 13px;
+}
+.home{
+    /* color: white !important; */
+    margin-right: 13px;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+/* home page End*/
+
+
+/* login page */
+.log{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 370px !important;
+    height: 430px;
+    display: flex;
+  justify-content: center; 
+  flex-direction: column !important;
+  background-color: white;
+  border-radius: 5px;
+}
+.label{
+    margin-top: 23px;
+}
+.btn{
+  background-color: #007AFF !important;
+  margin-top: 23px;
+  color: white !important;
+  font-size: 20px !important;
+}
+.logtest{
+    text-align: center;
+    position: relative !important;
+    top: -40px;
+}
+.singtest{
+    text-align: center;
+    position: relative !important;
+    top: -20px;
+}
+#pass{
+    border-radius: 5px;
+    height: 35px;
+ 
+}
+
+#email{
+    border-radius: 5px;
+   
+    height: 35px;
+}
+
+.main{
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex !important;
+align-items: center !important;
+justify-content: center !important;
+}
+#img {
+    position: absolute;
+    left: 69%;
+    top: 47%;
+  }
+
+/* login page End */
+
+
+/* about page  */
+.aboutmain{
+    height: 100vh;
+    background-image: url("./iimage/blue-background-7470781_640.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+
+}
+.child{
+    width: 30% !important;
+    
+  
+}
+.child2{
+    width: 70%;
+ 
+}
+.aboutlogo{
+    width: 300px;
+}
+.aboutus{
+    font-size: 50px;
+    color: white;
+}
+.aboutusp{
+    font-size: 20px;
+    color: white;
+}
+
+/* about page End */
+
+
+
+/* contact page  */
+
+
+
+/* .chi1{
+    width: 50%;
+}
+.chi2{
+    width: 50%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+   .img{
+    height: 500px !important;
+   }
+  .colen{
+    justify-content: center !important;
+    display: flex !important;
+    margin-bottom: 9px;
+  }
+ .home2{
+margin-left: 15px !important;
+ 
+ }
+ .log{
+    width: 300px !important;
+
+ }
+.parent{
+    flex-direction: column;
+}
+.aboutlogo{
+    position: relative !important;
+    right: 50px !important;
+    bottom: 20px;
+    width: 250px !important;
+}
+
+  }
